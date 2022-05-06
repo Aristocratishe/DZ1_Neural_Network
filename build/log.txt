@@ -1,0 +1,47 @@
+
+
+***********************TCP Packet*************************
+
+Ethernet Header
+   |-Destination Address : DC-A2-66-0E-89-B1 
+   |-Source Address      : A0-CF-F5-CC-D4-9C 
+   |-Protocol            : 8 
+
+IP Header
+   |-IP Version        : 4
+   |-IP Header Length  : 5 DWORDS or 20 Bytes
+   |-Type Of Service   : 40
+   |-IP Total Length   : 40  Bytes(Size of Packet)
+   |-Identification    : 1563
+   |-TTL      : 56
+   |-Protocol : 6
+   |-Checksum : 58451
+   |-Source IP        : 162.247.243.147
+   |-Destination IP   : 192.168.1.6
+
+TCP Header
+   |-Source Port      : 443
+   |-Destination Port : 56214
+   |-Sequence Number    : 3134032038
+   |-Acknowledge Number : 266878836
+   |-Header Length      : 5 DWORDS or 20 BYTES
+   |-Urgent Flag          : 0
+   |-Acknowledgement Flag : 1
+   |-Push Flag            : 0
+   |-Reset Flag           : 0
+   |-Synchronise Flag     : 0
+   |-Finish Flag          : 0
+   |-Window         : 71
+   |-Checksum       : 59185
+   |-Urgent Pointer : 0
+
+                        DATA Dump                         
+IP Header
+    DC A2 66 0E 89 B1 A0 CF F5 CC D4 9C 08 00 45 28         ..f...........E(
+    00 28 06 1B                                             .(..
+TCP Header
+    40 00 38 06 E4 53 A2 F7 F3 93 C0 A8 01 06 01 BB         @.8..S..........
+    DB 96 BA CD                                             ....
+Data Payload
+
+###########################################################

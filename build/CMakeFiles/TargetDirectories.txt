@@ -1,0 +1,3 @@
+/home/aristo/sniffer/build/CMakeFiles/Sniffer.dir
+/home/aristo/sniffer/build/CMakeFiles/edit_cache.dir
+/home/aristo/sniffer/build/CMakeFiles/rebuild_cache.dir

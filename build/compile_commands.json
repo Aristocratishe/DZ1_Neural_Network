@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/aristo/sniffer/build",
+  "command": "/usr/bin/g++  -I/home/aristo/sniffer/headers -g -o CMakeFiles/Sniffer.dir/src/main.cpp.o -c /home/aristo/sniffer/src/main.cpp",
+  "file": "/home/aristo/sniffer/src/main.cpp"
+},
+{
+  "directory": "/home/aristo/sniffer/build",
+  "command": "/usr/bin/g++  -I/home/aristo/sniffer/headers -g -o CMakeFiles/Sniffer.dir/src/sniffer.cpp.o -c /home/aristo/sniffer/src/sniffer.cpp",
+  "file": "/home/aristo/sniffer/src/sniffer.cpp"
+}
+]
